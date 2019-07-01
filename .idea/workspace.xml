@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11cd63cd-6a3c-4391-a83e-4ecbbcb3a6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="11cd63cd-6a3c-4391-a83e-4ecbbcb3a6ad" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +41,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/PallindromeTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/CheckOddOrEvenNUmber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/CheckOddOrEvenNUmberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="88" selection-start-line="7" selection-end-line="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +102,7 @@
         <option value="$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/RepeatLastStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/InputValueAddition.java" />
         <option value="$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/InputValueAdditionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/CheckOddOrEvenNUmber.java" />
       </list>
     </option>
   </component>
@@ -104,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -196,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,9 +350,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseStringTest_givenStringShouldReturnReverseString - 2019.06.27 at 01h 15m 19s.xml">
-      <configuration name="ReverseStringTest.givenStringShouldReturnReverseString" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ReverseStringTest_givenStringShouldReturnReverseString - 2019.06.27 at 01h 16m 17s.xml">
       <configuration name="ReverseStringTest.givenStringShouldReturnReverseString" configurationId="JUnit" />
     </history-entry>
@@ -361,12 +377,16 @@
     <history-entry file="ReverseStringTest_givenStringShouldReturnReverseString - 2019.06.27 at 09h 16m 01s.xml">
       <configuration name="ReverseStringTest.givenStringShouldReturnReverseString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CheckOddOrEvenNUmberTest - 2019.07.01 at 14h 06m 07s.xml">
+      <configuration name="CheckOddOrEvenNUmberTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1533" height="875" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2633717" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4986226" visible="true" weight="0.26811105" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5013774" side_tool="true" visible="true" weight="0.26811105" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -459,13 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/OddOrEvenNUmber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/GuessNumberTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -513,16 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/OddOrEvenNUmberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/ReverseString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -555,6 +558,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/com/stackroute/junitwork/CheckOddOrEvenNUmberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="88" selection-start-line="7" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/stackroute/junitwork/CheckOddOrEvenNUmber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
