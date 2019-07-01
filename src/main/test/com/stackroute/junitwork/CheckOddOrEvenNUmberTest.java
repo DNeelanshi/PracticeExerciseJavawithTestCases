@@ -4,13 +4,13 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-public class OddOrEvenNUmberTest {
+public class CheckOddOrEvenNUmberTest {
 
-    OddOrEvenNUmber obj;
+    CheckOddOrEvenNUmber obj;
     @Before
     public void setup(){
         System.out.println("Before");
-        obj = new OddOrEvenNUmber();
+        obj = new CheckOddOrEvenNUmber();
     }
 
     @After

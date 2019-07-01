@@ -2,7 +2,7 @@ package com.stackroute.junitwork;
 
 import java.util.InputMismatchException;
 
-public class OddOrEvenNUmber {
+public class CheckOddOrEvenNUmber {
 
     public String checkoddeven(int num) {
         try {
