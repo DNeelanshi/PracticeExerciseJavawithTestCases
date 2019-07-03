@@ -10,25 +10,25 @@ public class CheckInputTypeTest {
     CheckInputType obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new CheckInputType();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -80,6 +80,18 @@ public class CheckInputTypeTest {
 
         //Assert
         assertEquals("IT is Special Character",result);
+
+    }
+    @Test
+    public void  givenNUllShouldReturnNull(){
+
+        //Arrange
+
+        //Act
+        String result =  obj.charCheck(' ');
+
+        //Assert
+        assertNotEquals(null,result);
 
     }
 }

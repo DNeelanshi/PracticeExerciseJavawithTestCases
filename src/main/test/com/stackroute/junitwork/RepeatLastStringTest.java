@@ -16,19 +16,19 @@ public class RepeatLastStringTest {
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -54,7 +54,20 @@ public class RepeatLastStringTest {
         String result =  obj.repeatlastalphabets("Stackroute",0);
 
         //Assert
-        assertEquals("Stackroute",result);
+        assertNotEquals("0",result);
+
+    }
+
+    @Test
+    public void  givenNegativeNUmberShouldReturnerror(){
+
+        //Arrange
+
+        //Act
+        String result =  obj.repeatlastalphabets("Stackroute",-1);
+
+        //Assert
+        assertEquals(null,result);
 
     }
 

@@ -9,25 +9,25 @@ public class PallindromeTest {
     Pallindrome obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new Pallindrome();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -72,7 +72,32 @@ public class PallindromeTest {
 
     }
 
+    @Test
+    public void  givenNegativeShouldReturnNull(){
+
+        //Arrange
+
+        //Act
+        String result =  obj.checkpallindrome(-6);
 
 
+        //Assert
+        assertEquals("-6 is not pallindrome",result);
+
+    }
+
+    @Test
+    public void  givenZeroShouldReturnNull(){
+
+        //Arrange
+
+        //Act
+        String result =  obj.checkpallindrome(0);
+
+
+        //Assert
+        assertEquals("0 is pallindrome and sum of even numbers is less than 25",result);
+
+    }
 
 }

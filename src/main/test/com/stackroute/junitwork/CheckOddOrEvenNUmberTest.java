@@ -9,25 +9,25 @@ public class CheckOddOrEvenNUmberTest {
     CheckOddOrEvenNUmber obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new CheckOddOrEvenNUmber();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -84,6 +84,19 @@ public class CheckOddOrEvenNUmberTest {
 
         //Assert
         assertEquals("Number is odd but doesn't lie between 20-30",result);
+
+    }
+    @Test
+    public void  givenNegativeShouldReturnmessage (){
+
+        //Arrange
+
+        //Act
+        String result =  obj.checkoddeven( -1);
+
+
+        //Assert
+        assertEquals("Please enter number greater than zero",result);
 
     }
 }

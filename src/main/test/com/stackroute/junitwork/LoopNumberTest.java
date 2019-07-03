@@ -9,25 +9,25 @@ public class LoopNumberTest {
     LoopNumber obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new LoopNumber();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -58,7 +58,19 @@ public class LoopNumberTest {
         assertEquals("0",result);
 
     }
+    @Test
+    public void  givenNULLShouldReturnnull(){
 
+        //Arrange
+
+        //Act
+        String result =  obj.getpattern(-3);
+
+
+        //Assert
+        assertNotEquals("-3",result);
+
+    }
 
 
 }

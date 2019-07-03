@@ -8,13 +8,19 @@ public class CheckOddOrEvenNUmber {
         try {
 
             if (num > 0) {
+                //checking for odd/even
+
                 if (num % 2 == 0) {
+                    //checking for range 20-30
+
                     if ((num > 20) && (num < 30)) {
                         return ("Jerry");
                     } else {
                         return ("Number is even but doesn't lie between 20-30");
                     }
                 } else {
+                    //checking for range 20-30
+
                     if ((num > 20) && (num < 30)) {
                         return ("Tom");
                     } else {

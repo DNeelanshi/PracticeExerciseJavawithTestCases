@@ -10,25 +10,24 @@ public class VowelOrConsonantTest {
     VowelOrConsonant obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new VowelOrConsonant();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -102,4 +101,17 @@ public class VowelOrConsonantTest {
 
     }
 
+    @Test
+    public void  givenNUllStringShouldReturnError(){
+
+        //Arrange
+
+        //Act
+        String result =  obj.countVowelconsonant(null);
+
+
+        //Assert
+        assertEquals(null,result);
+
+    }
 }

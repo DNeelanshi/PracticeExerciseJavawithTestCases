@@ -47,6 +47,8 @@ public class Pallindrome {
 //            System.out.println(temp + " is not pallindrome");
             }
         } catch (InputMismatchException e) {
+
+            //Exception for mismatched  input type
             return ("Please enter numbers only");
         }
     }

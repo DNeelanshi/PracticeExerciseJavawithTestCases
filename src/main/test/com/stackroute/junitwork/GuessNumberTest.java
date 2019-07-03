@@ -10,25 +10,25 @@ public class GuessNumberTest {
     GuessNumber obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new GuessNumber();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -38,7 +38,7 @@ public class GuessNumberTest {
         //Arrange
 
         //Act
-        String result =  obj.matchnumbers(36);
+        String result =  obj.matchnumbers(34);
 
 
         //Assert
@@ -72,7 +72,19 @@ public class GuessNumberTest {
 
     }
 
+    @Test
+    public void  givenNegativeNumberShouldReturnError (){
 
+        //Arrange
+
+        //Act
+        String result =  obj.matchnumbers(-3);
+
+
+        //Assert
+        assertEquals("Number guessed is less than original number",result);
+
+    }
 
 
 }

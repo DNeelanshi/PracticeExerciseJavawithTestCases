@@ -9,25 +9,25 @@ public class SortingNumberTest {
     SortingNumber obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new SortingNumber();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -58,6 +58,18 @@ public class SortingNumberTest {
         assertEquals("False",result);
 
     }
+    @Test
+    public void  givenNegativeShouldReturnFalse (){
 
+        //Arrange
+
+        //Act
+        String result =  obj.sum(-56);
+
+
+        //Assert
+        assertNotEquals("True",result);
+
+    }
 
 }

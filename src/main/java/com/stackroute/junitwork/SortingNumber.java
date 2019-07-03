@@ -36,18 +36,18 @@ public class SortingNumber {
         }
 // adding even number values.
         for (int i = 0; i < count; i++) {
-            System.out.print(array[i]);
+            System.out.print(arr[i]);
             if ((arr[i]) % 2 == 0)
                 sum = sum + arr[i];
         }
 
 //checking if sum is greater or smaller than 15
         if (sum > 15) {
-           return ("True");
+            return ("True");
         } else {
             return ("False");
 
-    }
+        }
 
-}
+    }
 }

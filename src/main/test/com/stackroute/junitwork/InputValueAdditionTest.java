@@ -12,25 +12,25 @@ public class InputValueAdditionTest {
     InputValueAddition obj;
     @Before
     public void setup(){
-        System.out.println("Before");
+
         obj = new InputValueAddition();
     }
 
     @After
     public void teardown(){
-        System.out.println("After");
+
         obj = null;
     }
 
     @BeforeClass
     public static void setupBeforeClass(){
-        System.out.println("Beforelass");
+
 
     }
 
     @AfterClass
     public static void teardownAfterClass(){
-        System.out.println("AfterClass");
+
 
     }
 
@@ -41,4 +41,24 @@ public class InputValueAdditionTest {
         assertEquals(100,sum);
     }
 
+    @Test
+    public void givenNegativeNUmberArrayShouldReturnSum()
+    {
+        int sum =obj.addnumber(new int[]{10,-20,30,-40});
+        assertEquals(-20,sum);
+    }
+
+    @Test
+    public void givenemptyArrayShouldReturnerror()
+    {
+        int sum =obj.addnumber(new int[]{});
+        assertEquals(0,sum);
+    }
+
+    @Test
+    public void givenNUllShouldReturnNUll()
+    {
+        int sum =obj.addnumber(null);
+        assertEquals(0,sum);
+    }
 }
